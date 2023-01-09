@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Server\\FirmOrders.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Client\\FirmOrders.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Client\\FirmOrders.Client.csproj",
+        "projectName": "FirmOrders.Client",
+        "projectPath": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Client\\FirmOrders.Client.csproj",
+        "packagesPath": "C:\\Users\\Serkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Serkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Shared\\FirmOrders.Shared.csproj": {
+                "projectPath": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Shared\\FirmOrders.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.12, 6.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Server\\FirmOrders.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Server\\FirmOrders.Server.csproj",
+        "projectName": "FirmOrders.Server",
+        "projectPath": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Server\\FirmOrders.Server.csproj",
+        "packagesPath": "C:\\Users\\Serkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Serkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Client\\FirmOrders.Client.csproj": {
+                "projectPath": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Client\\FirmOrders.Client.csproj"
+              },
+              "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Shared\\FirmOrders.Shared.csproj": {
+                "projectPath": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Shared\\FirmOrders.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Shared\\FirmOrders.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Shared\\FirmOrders.Shared.csproj",
+        "projectName": "FirmOrders.Shared",
+        "projectPath": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Shared\\FirmOrders.Shared.csproj",
+        "packagesPath": "C:\\Users\\Serkan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Serkan\\Desktop\\blazor-wasm-challenge\\FirmOrders\\FirmOrders\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Serkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
