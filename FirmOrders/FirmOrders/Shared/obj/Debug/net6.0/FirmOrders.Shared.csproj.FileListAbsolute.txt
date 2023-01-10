@@ -1,0 +1,12 @@
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\bin\Debug\net6.0\FirmOrders.Shared.deps.json
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\bin\Debug\net6.0\FirmOrders.Shared.dll
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\bin\Debug\net6.0\FirmOrders.Shared.pdb
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\obj\Debug\net6.0\FirmOrders.Shared.csproj.AssemblyReference.cache
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\obj\Debug\net6.0\FirmOrders.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\obj\Debug\net6.0\FirmOrders.Shared.AssemblyInfoInputs.cache
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\obj\Debug\net6.0\FirmOrders.Shared.AssemblyInfo.cs
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\obj\Debug\net6.0\FirmOrders.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\obj\Debug\net6.0\FirmOrders.Shared.dll
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\obj\Debug\net6.0\refint\FirmOrders.Shared.dll
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\obj\Debug\net6.0\FirmOrders.Shared.pdb
+C:\Users\Serkan\Desktop\blazor-wasm-challenge\FirmOrders\FirmOrders\Shared\obj\Debug\net6.0\ref\FirmOrders.Shared.dll

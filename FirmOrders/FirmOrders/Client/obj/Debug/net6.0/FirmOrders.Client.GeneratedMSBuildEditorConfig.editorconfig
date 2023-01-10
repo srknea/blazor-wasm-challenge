@@ -34,6 +34,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Serkan/Desktop/blazor-wasm-challenge/FirmOrders/FirmOrders/Client/Pages/IpragazDashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXByYWdhekRhc2hib2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Serkan/Desktop/blazor-wasm-challenge/FirmOrders/FirmOrders/Client/Pages/KotonDashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS290b25EYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Serkan/Desktop/blazor-wasm-challenge/FirmOrders/FirmOrders/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,85 @@
+﻿@page "/koton"
+@inject HttpClient HttpClient
+@using FirmOrders.Shared
+
+<h3>Ürünler</h3>
+<br>
+<div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <div class="row">
+            @if (Products.Any())
+            {
+                @foreach (var product in Products)
+                {
+                    @if (product.FirmId == 1)
+                    {
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mh-25 mb-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">#@product.Id @product.Name</h5>
+                                    <p class="card-text">Stok: @product.Stock</p>
+                                    <p class="card-text">Fiyat: @product.Price</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            }
+            else
+            {
+                <p>No products available</p>
+            }
+        </div>
+    </div>
+
+</div>
+
+<h3>Siparişler</h3>
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ürün</th>
+            <th>Sipariş Tarihi</th>
+            <th>Siparişi Veren Kişi</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var order in Orders)
+        {
+            @if (order.FirmId == 1)
+            {
+                <tr>
+                    @foreach (var product in Products)
+                    {
+                        if (order.ProductId == product.Id)
+                        {
+
+                            <td>@product.Name</td>
+
+                        }
+                    }
+                    <td>@order.SiparisTarihi</td>
+                    <td>@order.SiparisVerenKisiAdi</td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+
+
+@code {
+    private List<Product> Products = new();
+    private List<Order> Orders= new();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        Products = await HttpClient.GetFromJsonAsync<List<Product>>("Product/List");
+        Orders = await HttpClient.GetFromJsonAsync<List<Order>>("Order/List");
+    }
+
+}
+
+

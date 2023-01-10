@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirmOrders.Server", "FirmOrders\Server\FirmOrders.Server.csproj", "{7E0B9917-7F62-497D-BF5A-1A0173410328}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirmOrders.Server", "FirmOrders\Server\FirmOrders.Server.csproj", "{7E0B9917-7F62-497D-BF5A-1A0173410328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirmOrders.Client", "FirmOrders\Client\FirmOrders.Client.csproj", "{9FAE5815-EAE0-4826-839D-56C9964C6134}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirmOrders.Client", "FirmOrders\Client\FirmOrders.Client.csproj", "{9FAE5815-EAE0-4826-839D-56C9964C6134}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirmOrders.Shared", "FirmOrders\Shared\FirmOrders.Shared.csproj", "{B93EAA41-95C6-457D-8896-AADD36ABAAA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirmOrders.Shared", "FirmOrders\Shared\FirmOrders.Shared.csproj", "{B93EAA41-95C6-457D-8896-AADD36ABAAA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
